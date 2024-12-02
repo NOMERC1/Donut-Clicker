@@ -1,0 +1,6 @@
+/frontend/clicker/node_modules
+/frontend/clicker/dist
+/frontend/clicker/package-lock.json
+
+.vscode/*
+!.vscode/extensions.json

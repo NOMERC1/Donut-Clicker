@@ -1,0 +1,114 @@
+.friends-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #524747, #1e293b);
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.invite-card,
+.invite-link-card {
+  background-color: #292929;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+
+.invite-card-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gift-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.invite-card-info h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+.reward-text {
+  font-size: 14px;
+  color: #a5a5a5;
+  margin-top: 5px;
+}
+
+.reward-text .highlight {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.invite-link-card {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.link-title {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.invite-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #383838;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.loading-text {
+  font-size: 13px;
+  color: #a5a5a5;
+}
+
+.copy-button {
+  background-color: #ffa500;
+  color: #292929;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #e5b100;
+}
+
+.referrals-text {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-align: center;
+}
